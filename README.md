@@ -27,4 +27,11 @@ A responsive Netflix homepage clone built using HTML & CSS. This project replica
 
 ---
 
-## 📂 Folder Structure
+---
+
+## 📦 Installation & Setup
+Clone the repository and open the `index.html` file in your browser:
+
+```bash
+git clone https://github.com/your-username/netflix-clone-html-css.git
+cd netflix-clone-html-css
