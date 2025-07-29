@@ -128,7 +128,7 @@ html {
 /* hero-section background image black opacity style */
 
 #hero-section {
-    height: 95vh;
+    height: 100vh;
     width: 100%;
     background: url("assets/Images/Hero section images/home_main_image.jpg");
     position: relative;
@@ -141,7 +141,7 @@ html {
 #hero-section::after {
     content: "";
     background-color: var(--primary-body-bg-color);
-    height: 95vh;
+    height: 100vh;
     width: 100%;
     position: absolute;
     top: 0px;
@@ -184,8 +184,9 @@ html {
 .email-form-content {
     display: flex;
     justify-content: space-evenly;
-    width: 42.5vw;
+    width: 45vw;
     align-items: center;
+    gap: 8px;
 }
 
 .email-form-content::placeholder {
@@ -271,6 +272,7 @@ html {
 .trending-row {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     position: relative;
 }
@@ -310,6 +312,7 @@ html {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .feature-box {
@@ -317,7 +320,7 @@ html {
     background-color: var(--feature-box-bg);
     display: flex;
     flex-direction: column;
-    width: 270px;
+    width: 250px;
     height: 320px;
     padding: 18px 23px;
     margin: 3px 6px;
